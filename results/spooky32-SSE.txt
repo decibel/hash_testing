@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+--- Testing Spooky32 (Bob Jenkins' SpookyHash, 32-bit result)
+
+[[[ Sanity Tests ]]]
+
+Verification value 0x3F798BBB : Passed!
+Running sanity check 1..........PASS
+Running sanity check 2..........PASS
+
+[[[ Speed Tests ]]]
+
+Bulk speed test - 262144-byte keys
+Alignment  0 -  2.676 bytes/cycle - 7656.19 MiB/sec @ 3 ghz
+Alignment  1 -  2.522 bytes/cycle - 7215.80 MiB/sec @ 3 ghz
+Alignment  2 -  2.535 bytes/cycle - 7251.54 MiB/sec @ 3 ghz
+Alignment  3 -  2.557 bytes/cycle - 7315.19 MiB/sec @ 3 ghz
+Alignment  4 -  2.540 bytes/cycle - 7266.33 MiB/sec @ 3 ghz
+Alignment  5 -  2.671 bytes/cycle - 7642.11 MiB/sec @ 3 ghz
+Alignment  6 -  2.509 bytes/cycle - 7179.74 MiB/sec @ 3 ghz
+Alignment  7 -  2.505 bytes/cycle - 7166.07 MiB/sec @ 3 ghz
+
+Small key speed test -    1-byte keys -    29.98 cycles/hash
+Small key speed test -    2-byte keys -    40.78 cycles/hash
+Small key speed test -    3-byte keys -    34.14 cycles/hash
+Small key speed test -    4-byte keys -    32.91 cycles/hash
+Small key speed test -    5-byte keys -    42.03 cycles/hash
+Small key speed test -    6-byte keys -    33.15 cycles/hash
+Small key speed test -    7-byte keys -    41.24 cycles/hash
+Small key speed test -    8-byte keys -    37.55 cycles/hash
+Small key speed test -    9-byte keys -    39.06 cycles/hash
+Small key speed test -   10-byte keys -    38.09 cycles/hash
+Small key speed test -   11-byte keys -    53.12 cycles/hash
+Small key speed test -   12-byte keys -    32.15 cycles/hash
+Small key speed test -   13-byte keys -    39.43 cycles/hash
+Small key speed test -   14-byte keys -    38.84 cycles/hash
+Small key speed test -   15-byte keys -    42.80 cycles/hash
+Small key speed test -   16-byte keys -    54.05 cycles/hash
+Small key speed test -   17-byte keys -    51.87 cycles/hash
+Small key speed test -   18-byte keys -    51.70 cycles/hash
+Small key speed test -   19-byte keys -    52.25 cycles/hash
+Small key speed test -   20-byte keys -    53.62 cycles/hash
+Small key speed test -   21-byte keys -    51.34 cycles/hash
+Small key speed test -   22-byte keys -    52.58 cycles/hash
+Small key speed test -   23-byte keys -    52.24 cycles/hash
+Small key speed test -   24-byte keys -    48.95 cycles/hash
+Small key speed test -   25-byte keys -    50.97 cycles/hash
+Small key speed test -   26-byte keys -    53.23 cycles/hash
+Small key speed test -   27-byte keys -    53.27 cycles/hash
+Small key speed test -   28-byte keys -    49.67 cycles/hash
+Small key speed test -   29-byte keys -    50.89 cycles/hash
+Small key speed test -   30-byte keys -    51.87 cycles/hash
+Small key speed test -   31-byte keys -    52.94 cycles/hash
+
+[[[ Differential Tests ]]]

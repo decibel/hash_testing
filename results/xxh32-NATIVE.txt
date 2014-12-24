@@ -1,0 +1,204 @@
+-------------------------------------------------------------------------------
+--- Testing XXH32 (xxhash 32-bit result)
+
+[[[ Speed Tests ]]]
+
+Bulk speed test - 262144-byte keys
+Alignment  0 -  2.244 bytes/cycle - 6420.16 MiB/sec @ 3 ghz
+Alignment  1 -  2.347 bytes/cycle - 6713.86 MiB/sec @ 3 ghz
+Alignment  2 -  2.233 bytes/cycle - 6388.71 MiB/sec @ 3 ghz
+Alignment  3 -  2.212 bytes/cycle - 6330.01 MiB/sec @ 3 ghz
+Alignment  4 -  2.232 bytes/cycle - 6384.44 MiB/sec @ 3 ghz
+Alignment  5 -  2.199 bytes/cycle - 6290.85 MiB/sec @ 3 ghz
+Alignment  6 -  2.240 bytes/cycle - 6407.46 MiB/sec @ 3 ghz
+Alignment  7 -  2.207 bytes/cycle - 6313.40 MiB/sec @ 3 ghz
+
+Small key speed test -    1-byte keys -    29.10 cycles/hash
+Small key speed test -    2-byte keys -    27.58 cycles/hash
+Small key speed test -    3-byte keys -    29.60 cycles/hash
+Small key speed test -    4-byte keys -    27.30 cycles/hash
+Small key speed test -    5-byte keys -    26.76 cycles/hash
+Small key speed test -    6-byte keys -    29.80 cycles/hash
+Small key speed test -    7-byte keys -    32.36 cycles/hash
+Small key speed test -    8-byte keys -    32.65 cycles/hash
+Small key speed test -    9-byte keys -    29.36 cycles/hash
+Small key speed test -   10-byte keys -    32.36 cycles/hash
+Small key speed test -   11-byte keys -    29.17 cycles/hash
+Small key speed test -   12-byte keys -    30.70 cycles/hash
+Small key speed test -   13-byte keys -    36.00 cycles/hash
+Small key speed test -   14-byte keys -    35.54 cycles/hash
+Small key speed test -   15-byte keys -    42.23 cycles/hash
+Small key speed test -   16-byte keys -    30.25 cycles/hash
+Small key speed test -   17-byte keys -    31.86 cycles/hash
+Small key speed test -   18-byte keys -    33.38 cycles/hash
+Small key speed test -   19-byte keys -    43.16 cycles/hash
+Small key speed test -   20-byte keys -    37.99 cycles/hash
+Small key speed test -   21-byte keys -    65.25 cycles/hash
+Small key speed test -   22-byte keys -    50.95 cycles/hash
+Small key speed test -   23-byte keys -    52.14 cycles/hash
+Small key speed test -   24-byte keys -    33.79 cycles/hash
+Small key speed test -   25-byte keys -    43.73 cycles/hash
+Small key speed test -   26-byte keys -    46.72 cycles/hash
+Small key speed test -   27-byte keys -    46.65 cycles/hash
+Small key speed test -   28-byte keys -    41.45 cycles/hash
+Small key speed test -   29-byte keys -    43.34 cycles/hash
+Small key speed test -   30-byte keys -    47.67 cycles/hash
+Small key speed test -   31-byte keys -    48.91 cycles/hash
+
+
+Input vcode 0x00000001, Output vcode 0x00000001, Result vcode 0x00000001
+Verification value is 0x00000001 - Testing took 6.204598 seconds
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--- Testing XXH32 (xxhash 32-bit result)
+
+[[[ Speed Tests ]]]
+
+Bulk speed test - 262144-byte keys
+Alignment  0 -  2.186 bytes/cycle - 6253.37 MiB/sec @ 3 ghz
+Alignment  1 -  2.212 bytes/cycle - 6327.91 MiB/sec @ 3 ghz
+Alignment  2 -  2.220 bytes/cycle - 6351.45 MiB/sec @ 3 ghz
+Alignment  3 -  2.207 bytes/cycle - 6313.91 MiB/sec @ 3 ghz
+Alignment  4 -  2.209 bytes/cycle - 6319.28 MiB/sec @ 3 ghz
+Alignment  5 -  2.206 bytes/cycle - 6312.54 MiB/sec @ 3 ghz
+Alignment  6 -  2.215 bytes/cycle - 6336.82 MiB/sec @ 3 ghz
+Alignment  7 -  2.189 bytes/cycle - 6264.11 MiB/sec @ 3 ghz
+
+Small key speed test -    1-byte keys -    29.43 cycles/hash
+Small key speed test -    2-byte keys -    27.78 cycles/hash
+Small key speed test -    3-byte keys -    29.28 cycles/hash
+Small key speed test -    4-byte keys -    29.12 cycles/hash
+Small key speed test -    5-byte keys -    29.00 cycles/hash
+Small key speed test -    6-byte keys -    29.68 cycles/hash
+Small key speed test -    7-byte keys -    32.48 cycles/hash
+Small key speed test -    8-byte keys -    23.94 cycles/hash
+Small key speed test -    9-byte keys -    30.06 cycles/hash
+Small key speed test -   10-byte keys -    27.58 cycles/hash
+Small key speed test -   11-byte keys -    35.52 cycles/hash
+Small key speed test -   12-byte keys -    25.33 cycles/hash
+Small key speed test -   13-byte keys -    32.57 cycles/hash
+Small key speed test -   14-byte keys -    34.91 cycles/hash
+Small key speed test -   15-byte keys -    36.58 cycles/hash
+Small key speed test -   16-byte keys -    35.77 cycles/hash
+Small key speed test -   17-byte keys -    43.13 cycles/hash
+Small key speed test -   18-byte keys -    40.54 cycles/hash
+Small key speed test -   19-byte keys -    43.69 cycles/hash
+Small key speed test -   20-byte keys -    38.85 cycles/hash
+Small key speed test -   21-byte keys -    32.66 cycles/hash
+Small key speed test -   22-byte keys -    42.53 cycles/hash
+Small key speed test -   23-byte keys -    45.95 cycles/hash
+Small key speed test -   24-byte keys -    40.28 cycles/hash
+Small key speed test -   25-byte keys -    42.89 cycles/hash
+Small key speed test -   26-byte keys -    46.40 cycles/hash
+Small key speed test -   27-byte keys -    46.59 cycles/hash
+Small key speed test -   28-byte keys -    44.68 cycles/hash
+Small key speed test -   29-byte keys -    63.38 cycles/hash
+Small key speed test -   30-byte keys -    48.12 cycles/hash
+Small key speed test -   31-byte keys -    50.29 cycles/hash
+
+
+Input vcode 0x00000001, Output vcode 0x00000001, Result vcode 0x00000001
+Verification value is 0x00000001 - Testing took 6.274240 seconds
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--- Testing XXH32 (xxhash 32-bit result)
+
+[[[ Speed Tests ]]]
+
+Bulk speed test - 262144-byte keys
+Alignment  0 -  2.179 bytes/cycle - 6232.88 MiB/sec @ 3 ghz
+Alignment  1 -  2.202 bytes/cycle - 6300.27 MiB/sec @ 3 ghz
+Alignment  2 -  2.228 bytes/cycle - 6374.01 MiB/sec @ 3 ghz
+Alignment  3 -  2.206 bytes/cycle - 6311.45 MiB/sec @ 3 ghz
+Alignment  4 -  2.211 bytes/cycle - 6324.95 MiB/sec @ 3 ghz
+Alignment  5 -  2.215 bytes/cycle - 6337.13 MiB/sec @ 3 ghz
+Alignment  6 -  2.187 bytes/cycle - 6256.96 MiB/sec @ 3 ghz
+Alignment  7 -  2.204 bytes/cycle - 6305.19 MiB/sec @ 3 ghz
+
+Small key speed test -    1-byte keys -    31.10 cycles/hash
+Small key speed test -    2-byte keys -    25.43 cycles/hash
+Small key speed test -    3-byte keys -    32.50 cycles/hash
+Small key speed test -    4-byte keys -    28.06 cycles/hash
+Small key speed test -    5-byte keys -    39.66 cycles/hash
+Small key speed test -    6-byte keys -    31.38 cycles/hash
+Small key speed test -    7-byte keys -    32.38 cycles/hash
+Small key speed test -    8-byte keys -    23.60 cycles/hash
+Small key speed test -    9-byte keys -    30.93 cycles/hash
+Small key speed test -   10-byte keys -    35.88 cycles/hash
+Small key speed test -   11-byte keys -    34.71 cycles/hash
+Small key speed test -   12-byte keys -    31.36 cycles/hash
+Small key speed test -   13-byte keys -    35.39 cycles/hash
+Small key speed test -   14-byte keys -    36.66 cycles/hash
+Small key speed test -   15-byte keys -    49.15 cycles/hash
+Small key speed test -   16-byte keys -    30.34 cycles/hash
+Small key speed test -   17-byte keys -    38.92 cycles/hash
+Small key speed test -   18-byte keys -    40.51 cycles/hash
+Small key speed test -   19-byte keys -    44.67 cycles/hash
+Small key speed test -   20-byte keys -    38.10 cycles/hash
+Small key speed test -   21-byte keys -    34.00 cycles/hash
+Small key speed test -   22-byte keys -    41.35 cycles/hash
+Small key speed test -   23-byte keys -    45.14 cycles/hash
+Small key speed test -   24-byte keys -    40.77 cycles/hash
+Small key speed test -   25-byte keys -    43.77 cycles/hash
+Small key speed test -   26-byte keys -    44.51 cycles/hash
+Small key speed test -   27-byte keys -    45.10 cycles/hash
+Small key speed test -   28-byte keys -    35.95 cycles/hash
+Small key speed test -   29-byte keys -    45.51 cycles/hash
+Small key speed test -   30-byte keys -    56.30 cycles/hash
+Small key speed test -   31-byte keys -    70.57 cycles/hash
+
+
+Input vcode 0x00000001, Output vcode 0x00000001, Result vcode 0x00000001
+Verification value is 0x00000001 - Testing took 6.312965 seconds
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--- Testing XXH32 (xxhash 32-bit result)
+
+[[[ Speed Tests ]]]
+
+Bulk speed test - 262144-byte keys
+Alignment  0 -  2.210 bytes/cycle - 6323.29 MiB/sec @ 3 ghz
+Alignment  1 -  2.221 bytes/cycle - 6354.01 MiB/sec @ 3 ghz
+Alignment  2 -  2.205 bytes/cycle - 6308.14 MiB/sec @ 3 ghz
+Alignment  3 -  2.226 bytes/cycle - 6369.98 MiB/sec @ 3 ghz
+Alignment  4 -  2.218 bytes/cycle - 6345.01 MiB/sec @ 3 ghz
+Alignment  5 -  2.225 bytes/cycle - 6367.04 MiB/sec @ 3 ghz
+Alignment  6 -  2.221 bytes/cycle - 6354.20 MiB/sec @ 3 ghz
+Alignment  7 -  2.187 bytes/cycle - 6256.27 MiB/sec @ 3 ghz
+
+Small key speed test -    1-byte keys -    33.13 cycles/hash
+Small key speed test -    2-byte keys -    25.81 cycles/hash
+Small key speed test -    3-byte keys -    32.92 cycles/hash
+Small key speed test -    4-byte keys -    27.66 cycles/hash
+Small key speed test -    5-byte keys -    26.61 cycles/hash
+Small key speed test -    6-byte keys -    35.03 cycles/hash
+Small key speed test -    7-byte keys -    31.68 cycles/hash
+Small key speed test -    8-byte keys -    23.43 cycles/hash
+Small key speed test -    9-byte keys -    33.95 cycles/hash
+Small key speed test -   10-byte keys -    33.43 cycles/hash
+Small key speed test -   11-byte keys -    35.93 cycles/hash
+Small key speed test -   12-byte keys -    33.18 cycles/hash
+Small key speed test -   13-byte keys -    27.95 cycles/hash
+Small key speed test -   14-byte keys -    30.10 cycles/hash
+Small key speed test -   15-byte keys -    37.16 cycles/hash
+Small key speed test -   16-byte keys -    29.70 cycles/hash
+Small key speed test -   17-byte keys -    31.25 cycles/hash
+Small key speed test -   18-byte keys -    41.84 cycles/hash
+Small key speed test -   19-byte keys -    40.87 cycles/hash
+Small key speed test -   20-byte keys -    36.54 cycles/hash
+Small key speed test -   21-byte keys -    41.18 cycles/hash
+Small key speed test -   22-byte keys -    43.08 cycles/hash
+Small key speed test -   23-byte keys -    44.90 cycles/hash
+Small key speed test -   24-byte keys -    39.76 cycles/hash
+Small key speed test -   25-byte keys -    43.97 cycles/hash
+Small key speed test -   26-byte keys -    46.20 cycles/hash
+Small key speed test -   27-byte keys -    45.91 cycles/hash
+Small key speed test -   28-byte keys -    45.14 cycles/hash
+Small key speed test -   29-byte keys -    69.69 cycles/hash
+Small key speed test -   30-byte keys -    47.14 cycles/hash
+Small key speed test -   31-byte keys -    48.74 cycles/hash
+
+
+Input vcode 0x00000001, Output vcode 0x00000001, Result vcode 0x00000001
+Verification value is 0x00000001 - Testing took 6.315306 seconds
+-------------------------------------------------------------------------------
